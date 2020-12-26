@@ -14,3 +14,47 @@ A Bluetooth Low Energy (BLE) thermometer that implements
 
 - Board Support Package for the nRF52840 - https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/arduino-bsp-setup
 - Arduino IDE 1.8 or newer - https://www.arduino.cc/en/Main/Software
+
+## Sample Output (Tools > Serial Monitor)
+
+### Not connected to a cental
+
+```
+Not connected
+4F 1 4B 46 7F FF C 10 46 
+Temperature: 69.688
+BLE:2D 8
+Not connected
+4F 1 4B 46 7F FF C 10 46 
+Temperature: 69.688
+BLE:2D 8
+Not connected
+4F 1 4B 46 7F FF C 10 46 
+Temperature: 69.688
+BLE:2D 8
+Not connected
+4F 1 4B 46 7F FF C 10 46 
+Temperature: 69.688
+BLE:2D 8
+```
+
+### Connected to a central
+
+```
+Connected, sending notification
+58 1 4B 46 7F FF C 10 E8 
+Temperature: 70.700
+BLE:66 8
+Connected, sending notification
+50 1 4B 46 7F FF C 10 E8 
+Temperature: 69.800
+BLE:34 8
+Connected, sending notification
+50 1 4B 46 7F FF C 14 E8 
+Temperature: 69.800
+BLE:34 8
+Connected, sending notification
+50 1 4B 46 7F FF C 10 E8 
+Temperature: 69.800
+BLE:34 8
+```
