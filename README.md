@@ -10,6 +10,10 @@ A Bluetooth Low Energy (BLE) thermometer that implements
 - Adafruit Feather nRF52840 Express - https://www.adafruit.com/product/4062
 - Pull up resistor, 4.7K
 
+## Schematic
+
+![Schematic](/media/schematic.png)
+
 ## Software
 
 - Board Support Package for the nRF52840 - https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/arduino-bsp-setup
