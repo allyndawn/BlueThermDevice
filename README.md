@@ -59,6 +59,10 @@ Temperature: 69.800
 BLE:34 8
 ```
 
-## How It Appears to a Central (LightBlue by PunchThrough)
+## How It Appears to a Central (e.g. LightBlue by PunchThrough)
 
+![In the peripherals list](/media/LightBlue-0.png)
 
+![On connecting](/media/LightBlue-1.png)
+
+![On listening to notifications](/media/LightBlue-2.png)
