@@ -58,3 +58,7 @@ Connected, sending notification
 Temperature: 69.800
 BLE:34 8
 ```
+
+## How It Appears to a Central (LightBlue by PunchThrough)
+
+
